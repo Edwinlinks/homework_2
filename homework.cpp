@@ -1,9 +1,13 @@
 #include<iostream>
 using namespace std;
+void funtion();
 int main()
 {
-
-	int i=0,j=0,k=0;
+funtion();
+return 0;	
+}
+void funtion(){
+int i=0,j=0,k=0;
 	int n,m;
 	for(k=0;k<10;k++)
 	{
@@ -16,5 +20,6 @@ int main()
 		printf("\n");
 	}
 	return 0;
-}
 
+
+}
